@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 
 @XmlRootElement
-public class Stock {
+class Stock {
     private String symbol;
     private Double price;
     private String currency;
@@ -13,14 +13,14 @@ public class Stock {
     public Stock() {
     }
 
-    public Stock(String symbol, Double price, String currency, String country) {
+    Stock(String symbol, Double price, String currency, String country) {
         this.symbol = symbol;
         this.price = price;
         this.currency = currency;
         this.country = country;
     }
 
-    public String getSymbol() {
+    String getSymbol() {
         return symbol;
     }
 

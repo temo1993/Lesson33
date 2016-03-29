@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.ws.rs-api">
+    <CLASSES>
+      <root url="jar://C:/glassfish4/glassfish/modules/javax.ws.rs-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

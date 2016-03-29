@@ -3,8 +3,8 @@ package service;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StockServiceHelper {
-    public static void addStock(Stock stock) {
+class StockServiceHelper {
+    static void addStock(Stock stock) {
         stocks.put(stock.getSymbol(), stock);
     }
 
@@ -12,7 +12,7 @@ public class StockServiceHelper {
         stocks.remove(symbol);
     }
 
-    public static Stock getStock(String symbol) {
+    static Stock getStock(String symbol) {
         return stocks.get(symbol);
     }
 
